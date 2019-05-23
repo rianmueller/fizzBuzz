@@ -4,3 +4,16 @@ if the number is a multiple of 3, it will console.log "fizz",
 if the number is a multiple of 5, it will console.log "buzz",  
 if the number is a multiple of 3 and 5, it will console.log "fizzBuzz"
 */
+
+function whatever(){
+    for(i = 1; i < 101; i++){
+        if(i % 3 == 0){
+            console.log(i + " fizz");
+        }if(i % 5 == 0){
+            console.log(i + " buzz");
+        }if(i % 15 == 0){
+            console.log(i + " fizzbuzz")
+        }
+    }
+}
+whatever()
